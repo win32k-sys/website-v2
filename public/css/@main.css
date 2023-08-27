@@ -1,44 +1,19 @@
 @import url(games.css);
 @import url(home.css);
+@import url(navigation.css);
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 html, body {
-  font-family: 'Lato', sans-serif;
-    font-size: 14px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Lato';
+  user-select: none;
 }
 
-/* /* Can't make my mind up mabye, 'https://fonts.google.com/specimen/Inter'? */
+a {
+  text-decoration: none;
+  color: blue;
+}
 
-.nav {
-    height: 58px;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-    box-shadow: 0px 0px 10px #000;
-    background-color: #1c1c1c;
-  }
-  
-  .nav .item {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    gap: 15px;
-  }
-  
- .nav .item {
-    border-radius: 40px;
-    padding: 10px 8px;
-    font-size: 15px;
-    background: transparent;
-    cursor: pointer;
-    user-select: none;
-    color: white;
-    transition: .2s;
-    border: none;
-    text-decoration: none;
-  }
-
-  .nav .item:hover {
-    opacity: calc(0.6);
-  }
+/* Can't make my mind up mabye, 'https://fonts.google.com/specimen/Inter'? */
