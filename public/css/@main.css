@@ -1,5 +1,5 @@
-@import url(/src/games.css);
-@import url(/src/css/home.css);
+@import url(games.css);
+@import url(home.css);
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 html, body {
