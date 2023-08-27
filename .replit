@@ -1,0 +1,12 @@
+entrypoint = "server.js"
+language = "nodejs"
+
+[unitTest]
+language = "nodejs"
+
+[packager]
+afterInstall = "echo 'package installed'"
+language = "nodejs"
+
+[deployment]
+run = "node server.js"
