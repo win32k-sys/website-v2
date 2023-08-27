@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const queryString = window.location.search.substring(1);
 
   const pageMappings = {
-    "flappybird": "/games/flappybird.html",
+    "flappybird": "/game/flappybird.html",
   };
 
   const filePath = pageMappings[queryString];
