@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 app.use(express.static('public'));
 
 app.get('/games', (req, res) => {
-    res.sendFile(__dirname + '/public/src/games.html');
+    res.sendFile(__dirname + '/public/games.html');
 });
 
 app.get('/', (req, res) => {
@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/home', (req, res) => {
-    res.sendFile(__dirname + '/public/src/home.html');
+    res.sendFile(__dirname + '/public/home.html');
 });
 
 // Start the server
