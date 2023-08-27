@@ -13,4 +13,8 @@ router.get('/home', (req, res) => {
     res.sendFile(__dirname + '/public/home.html');
 });
 
+router.get('/docs/LICENSE', (req, res) => {
+    res.sendFile(__dirname + '/src/LICENSE');
+});
+
 module.exports = router;
