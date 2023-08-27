@@ -4,19 +4,10 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 
-app.get('/games', (req, res) => {
-    res.sendFile(__dirname + '/public/games.html');
-});
+const routes = require('./routes');
+app.use('/', routes);
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/index.html');
-});
-
-app.get('/home', (req, res) => {
-    res.sendFile(__dirname + '/public/home.html');
-});
-
-// Start the server
+// Console log on server start default 3000
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+    console.log(`Server running on port ${port} from nate-games`);
 });
