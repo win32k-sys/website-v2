@@ -2,23 +2,23 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/games', (req, res) => {
-    res.sendFile(__dirname + '/src/games.html');
+    res.sendFile(__dirname + '/public/games.html');
 });
 
 router.get('/', (req, res) => {
-    res.sendFile(__dirname + '/src/index.html');
+    res.sendFile(__dirname + '/public/index.html');
 });
 
 router.get('/home', (req, res) => {
-    res.sendFile(__dirname + '/src/home.html');
+    res.sendFile(__dirname + '/public/home.html');
 });
 
 router.get('/load', (req, res) => {
-    res.sendFile(__dirname + '/src/loader.html');
+    res.sendFile(__dirname + '/public/loader.html');
 });
 
 router.get('/404', (req, res) => {
-    res.sendFile(__dirname + '/src/404.txt');
+    res.sendFile(__dirname + '/public/404.txt');
 });
 
 module.exports = router;
