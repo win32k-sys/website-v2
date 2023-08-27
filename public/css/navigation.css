@@ -5,6 +5,7 @@
     z-index: 9999;
     box-shadow: 0px 0px 10px #000;
     background-color: #1c1c1c;
+    font-size: 14px;
   }
   
   .nav-content {
@@ -14,18 +15,18 @@
     align-items: center;
     gap: 15px;
   }
-  
-  .navitem {
-    border-radius: 40px;
-    padding: 10px 8px;
-    font-size: 15px;
-    background: transparent;
-    cursor: pointer;
-    user-select: none;
-    color: white;
-    transition: all .2s;
+
+  .nav-content a {
+    color:white;
+    border-radius: 28px;
+    padding: 12px;
+    transition: 0.2s;
   }
 
-  .navitem:hover {
-    opacity: calc(0.8);
+  .nav-content a:hover {
+    opacity: calc(0.7);
+  }
+
+  .nav-selected {
+    background-color: #4287f5;
   }
