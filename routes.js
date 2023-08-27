@@ -13,8 +13,12 @@ router.get('/home', (req, res) => {
     res.sendFile(__dirname + '/public/home.html');
 });
 
-router.get('/docs/LICENSE', (req, res) => {
-    res.sendFile(__dirname + '/src/LICENSE.txt');
+router.get('/load', (req, res) => {
+    res.sendFile(__dirname + '/src/loader.html');
+});
+
+router.get('/404', (req, res) => {
+    res.sendFile(__dirname + '/src/404.txt');
 });
 
 module.exports = router;
