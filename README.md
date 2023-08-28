@@ -1,5 +1,5 @@
 # website-v2
-
+For some reason, most schools block ALL cyclic subdomains even though mine doesn't have a proxy.
 
 ### Services
 When deploying with replit make sure the language is NodeJS
