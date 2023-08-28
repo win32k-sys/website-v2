@@ -1,9 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-const app = express();
-app.use(router);
-
 router.get('/games', (req, res) => {
     res.sendFile(__dirname + '/public/games.html');
 });
@@ -19,8 +16,8 @@ router.get('/home', (req, res) => {
 router.get('/load', (req, res) => {
     res.sendFile(__dirname + '/public/loader.html');
 });
-
-app.use((req, res, next) => {
+  
+router.use((req, res) => {
     res.status(404).sendFile(__dirname + '/public/404.html');
   });
 
