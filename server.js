@@ -7,7 +7,6 @@ app.use(express.static('public'));
 const routes = require('./routes');
 app.use('/', routes);
 
-// Console log on server start default 3000
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+    console.log(`Server is running on port ${port}`);
 });
