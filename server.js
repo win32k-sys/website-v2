@@ -9,5 +9,5 @@ app.use('/', routes);
 
 // Console log on server start default 3000
 app.listen(port, () => {
-    console.log(`Server running on port ${port} from nate-games`);
+    console.log(`Server running on port ${port}`);
 });

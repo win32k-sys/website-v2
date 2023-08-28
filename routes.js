@@ -17,8 +17,9 @@ router.get('/load', (req, res) => {
     res.sendFile(__dirname + '/public/loader.html');
 });
 
-router.get('/404', (req, res) => {
-    res.sendFile(__dirname + '/public/404.txt');
-});
+app.use((req, res, next) => {
+    res.status(404).sendFile(__dirname + '/public/404.html');
+  });
+  
 
 module.exports = router;

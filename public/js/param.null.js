@@ -5,9 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
 
     const pageMappings = {
-      "example": "/public/index.html",
-      "home": "/public/home.html",
-      // Add more mappings as needed
+      "apitoken": "/public/index.html",
+      // Adding more mappings
     };
     
 
