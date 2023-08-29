@@ -1,9 +1,45 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-  </head>
-  <body>
-    <div id="content"></div>
-    <script src="/js/param.main.js"></script>
-  </body>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        iframe {
+            border: 0;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <iframe id="content" src=""></iframe>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const queryString = window.location.search.substring(1);
+
+            const pageMappings = {
+                "flappybird": "https://nate-games.github.io/0/g/flappybird/game/",
+                "stickmanhook": "https://nate-games.github.io/0/g/stickmanhook/game/",
+            };
+
+            const filePath = pageMappings[queryString];
+
+            if (filePath) {
+                document.getElementById("content").src = filePath;
+            } else {
+                window.location.href = "/404?load";
+            }
+        });
+    </script>
+</body>
 </html>
