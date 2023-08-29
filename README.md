@@ -2,6 +2,7 @@
 For some reason, most schools block ALL cyclic subdomains even though mine doesn't have a proxy.
 
 https://nate-games.cyclic.app
+
 https://nate-v2.onrender.com
 
 ### Services
