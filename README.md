@@ -16,7 +16,7 @@ When deploying with replit make sure the language is NodeJS
 Learn how to [deploy](https://vercel.com/guides/using-express-with-vercel) to vercel
 
 ### Run local
-Instal npm if you haven't already https://nodejs.org
+Instal [npm](https://nodejs.org) if you haven't already
 
 ```
 npm install express --save
@@ -25,4 +25,4 @@ npm install express --save
 npm start
 ```
 
-Open http://127.0.0.1:3000/ or http://localhost:3000/
+Open [127.0.0.1:3000](http://127.0.0.1:3000) or [localhost:3000](http://localhost:3000)
