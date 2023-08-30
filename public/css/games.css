@@ -80,7 +80,7 @@ button {
 
 .game-card:hover {
     background-color: #4287f5;
-    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.7);
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.5);
 }
 .game-card:active {
     transform: scale(.9);
