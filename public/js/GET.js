@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "flappybird": "https://nate-games.github.io/0/g/flappybird/game/",
         "stickmanhook": "https://nate-games.github.io/0/g/stickmanhook/game/",
         "doodlejump": "https://nate-games.github.io/0/g/doodle-jump/game/",
+        "geometrydash": "https://cdn.nate-games.workers.dev/?url:https://nate-games.github.io/0/g/geodash",
         "404": "/404",
     };
 
