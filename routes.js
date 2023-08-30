@@ -17,6 +17,10 @@ router.get('/load', (req, res) => {
     res.sendFile(__dirname + '/public/loader.html');
 });
 
+router.get('/game', (req, res) => {
+    res.sendFile(__dirname + '/public/game.html');
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(__dirname + '/public/404.html');
 });
