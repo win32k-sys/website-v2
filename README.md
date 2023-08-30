@@ -14,3 +14,15 @@ When deploying with replit make sure the language is NodeJS
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/nate-games/website-v2&branch=main&name=deploy-buttons"><img alt="Deploy to Koyeb" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/main/buttons/remade/koyeb.svg"></a>
 
 Learn how to [deploy](https://vercel.com/guides/using-express-with-vercel) to vercel
+
+### Run local
+Instal npm if you haven't already https://nodejs.org
+
+```
+npm install express --save
+```
+```
+npm start
+```
+
+Open http://127.0.0.1:3000/ or http://localhost:3000/
