@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "stickmanhook": "https://nate-games.github.io/0/g/stickmanhook/game/",
         "doodlejump": "https://nate-games.github.io/0/g/doodle-jump/game/",
         "geometrydash": "https://cdn.nate-games.workers.dev/?url:https://nate-games.github.io/0/g/geodash",
+        "ovo": "https://nate-games.github.io/0/g/ovo/game/",
+        "ovo2": "https://nate-games.github.io/0/g/ovo2/game/",
+        "ovo3": "https://nate-games.github.io/0/g/ovo3/game/",
         "404": "/404",
     };
 
