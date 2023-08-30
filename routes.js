@@ -21,6 +21,11 @@ router.get('/game', (req, res) => {
     res.sendFile(__dirname + '/public/game.html');
 });
 
+router.get('/docs/readme', (req, res) => {
+    res.sendFile(__dirname + '/public/docs-readme.html');
+});
+
+
 router.use((req, res) => {
     res.status(404).sendFile(__dirname + '/public/404.html');
 });
