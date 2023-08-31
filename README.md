@@ -18,8 +18,6 @@ Learn how to [deploy](https://vercel.com/guides/using-express-with-vercel) to ve
 ### Run local
 Install [npm](https://nodejs.org) if you haven't already
 
-OR, open run.bat file.
-
 ```
 npm install express --save
 ```
