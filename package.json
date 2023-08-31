@@ -1,14 +1,14 @@
 {
   "name": "nate-games",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your Ultimate Hub for Unblocked HTML5, Flash, WebGL, and More! Immerse yourself in a world of gaming experiences - perfect for students & dedicated gamers!",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "nate-games",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"

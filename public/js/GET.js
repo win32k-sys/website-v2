@@ -12,9 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "ovo3": "https://nate-games.github.io/0/g/ovo3/game/",
         "plants-vs-zombies": "https://nate-games.github.io/0/g/pvz/game/default/",
         "fruitninja": "https://nate-games.github.io/0/g/fruitninja/game/",
-        "amongus": "/static/construct/",
+        "amongus": "/projects/among-us/construct/",
         "404": "/404",
-        "null": "/js/null.txt",
     };
 
     const filePath = pageMappings[queryString];

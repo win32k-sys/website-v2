@@ -53,11 +53,5 @@
       "name": "Fruit Ninja",
       "imageSrc": "/img/fruitninja.jpg",
       "url": "/game?fruitninja"
-    },
-    {
-      "name": "Null",
-      "imageSrc": "/img/",
-      "url": "/game?null"
     }
   ]
-  
