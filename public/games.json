@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Flappy Bird",
+      "imageSrc": "/img/flappybird.png",
+      "url": "/game?flappybird"
+    },
+    {
+      "name": "Crossy Road",
+      "imageSrc": "/img/crossyroad.png",
+      "url": "/game?crossyroad"
+    },
+    {
+      "name": "Stickman Hook",
+      "imageSrc": "/img/stickmanhook.jpg",
+      "url": "/game?stickmanhook"
+    },
+    {
+      "name": "Doodle Jump",
+      "imageSrc": "/img/doodlejump.png",
+      "url": "/game?doodlejump"
+    },
+    {
+      "name": "Geometry Dash",
+      "imageSrc": "/img/geometrydash.svg",
+      "url": "/game?geometrydash"
+    },
+    {
+      "name": "OvO",
+      "imageSrc": "/img/ovo.bmp",
+      "url": "/game?ovo"
+    },
+    {
+      "name": "OvO 2",
+      "imageSrc": "/img/construct2.bmp",
+      "url": "/game?ovo2"
+    },
+    {
+      "name": "OvO 3",
+      "imageSrc": "/img/ovo3.bmp",
+      "url": "/game?ovo3"
+    },
+    {
+      "name": "Among Us",
+      "imageSrc": "/img/amongus.jpg",
+      "url": "/game?amongus"
+    },
+    {
+      "name": "Plants vs. Zombies",
+      "imageSrc": "/img/pvz.webp",
+      "url": "/game?plants-vs-zombies"
+    },
+    {
+      "name": "Fruit Ninja",
+      "imageSrc": "/img/fruitninja.jpg",
+      "url": "/game?fruitninja"
+    },
+    {
+      "name": "Null",
+      "imageSrc": "/img/",
+      "url": "/game?null"
+    }
+  ]
+  
