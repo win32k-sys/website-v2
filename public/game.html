@@ -6,8 +6,13 @@
   <link rel="icon" type="image/png" href="/class.png" />
   <link rel="stylesheet" href="/css/@main.css">
   <link rel="stylesheet" href="/css/game.css">
+  <style>
+    .description 
+    {padding: 0; position: absolute; text-align: center; left: 50%; transform: translateX(-50%); font-size: 13px;}
+    .right-side 
+    {padding: 0; position: absolute; text-align: center; top: 50%; right: 5em; transform: translate(-50%, -50%); font-size: 13px;}
+  </style>
 </head>
-
 <body>
   <div class="nav">
     <div class="nav-content">
@@ -25,7 +30,17 @@
       </button>
     </div>
   </div>
+  <p class="description">This is the game's description!</p>
+  <div class="right-side">
+  <p>Quick Menu</p>
+<button onclick="window.history.back();">&lt; Back to games</button>
+<br>
+<div class="game-cards-container"></div>
+<p>Your randomized games!</p>
+
+</div>
   <script src="/js/GET.js"></script>
   <script src="/js/fullscreen.js"></script>
+  <script src="/js/game-json.js"></script>
 </body>
 </html>
