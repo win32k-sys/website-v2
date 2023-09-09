@@ -1,52 +1,46 @@
 [
-  {
-    "name": "Shell Shockers",
-    "imageSrc": "/img/egg.webp",
-    "url": "https://shellshock.io"
-  },
-  {
-    "name": "Doodle Jump",
-    "imageSrc": "/img/doodlejump.png",
-    "url": "https://nate-games.github.io/0/g/doodle-jump/game/"
-  },
-  {
-    "name": "Geometry Dash",
-    "imageSrc": "/img/geometrydash.svg",
-    "url": "http://cdn.nate-games.workers.dev/?url:https://nate-games.github.io/0/g/geodash"
-  },
-  {
-    "name": "Hole.io",
-    "imageSrc": "/img/holeio.jpg",
-    "url": "http://hole-io.com"
-  },
-  {
-    "name": "Fortnite",
-    "imageSrc": "/img/fortnite.png",
-    "url": "http://play.geforcenow.com"
-  },
-  {
-    "name": "Helix Jump",
-    "imageSrc": "/img/helixjump.png",
-    "url": "http://nate-games.github.io/0/g/helixjump/game/"
-  },
-  {
-    "name": "Wings.io",
-    "imageSrc": "/img/wings-io.png",
-    "url": "http://wings.io/"
-  },
-  {
-    "name": "Stumble Guys",
-    "imageSrc": "/img/stumbleguys.png",
-    "url": "http://www.stumbleguys.com/"
-  },
-  {
-    "name": "Slither.io",
-    "imageSrc": "/img/slitherio.png",
-    "url": "http://slither.io"
-  },
-  {
-    "name": "Doge Miner 2",
-    "imageSrc": "/img/dogeminer2.jpg",
-    "url": "https://dogeminer2-1.pr0xies.repl.co/play/"
-  }
+    {
+      "name": "Shell Shockers",
+      "imageSrc": "/img/egg.webp",
+      "url": "https://shellshock.io"
+    },
+    {
+      "name": "Doodle Jump",
+      "imageSrc": "/img/doodlejump.png",
+      "url": "https://nate-games.github.io/0/g/doodle-jump/game/"
+    },
+    {
+      "name": "Geometry Dash",
+      "imageSrc": "/img/geometrydash.svg",
+      "url": "http://cdn.nate-games.workers.dev/?url:https://nate-games.github.io/0/g/geodash"
+    },
+    {
+      "name": "Hole.io",
+      "imageSrc": "/img/holeio.jpg",
+      "url": "http://hole-io.com"
+    },
+    {
+      "name": "Fortnite",
+      "imageSrc": "/img/fortnite.png",
+      "url": "http://play.geforcenow.com"
+    },
+    {
+      "name": "Helix Jump",
+      "imageSrc": "/img/helixjump.png",
+      "url": "http://nate-games.github.io/0/g/helixjump/game/"
+    },
+    {
+      "name": "Wings.io",
+      "imageSrc": "/img/wings-io.png",
+      "url": "http://wings.io/"
+    },
+    {
+      "name": "Stumble Guys",
+      "imageSrc": "/img/stumbleguys.png",
+      "url": "http://www.stumbleguys.com/"
+    },
+    {
+      "name": "Slither.io",
+      "imageSrc": "/img/slitherio.png",
+       "url": "http://slither.io"  }
 ]
