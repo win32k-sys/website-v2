@@ -19,7 +19,7 @@ Learn how to [deploy](https://vercel.com/guides/using-express-with-vercel) to ve
 Install [npm](https://nodejs.org) if you haven't already
 
 ```
-npm install express --save
+npm install
 ```
 ```
 npm start

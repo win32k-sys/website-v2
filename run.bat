@@ -6,7 +6,7 @@ cd /d %project_path%
 
 if not exist node_modules (
   echo Express is not installed. Installing Express...
-  npm install express --save
+  npm install
 ) else (
   echo Express is already installed.
 )

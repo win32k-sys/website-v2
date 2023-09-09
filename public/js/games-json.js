@@ -1,3 +1,7 @@
+function load(url) {
+    window.location.href = url;
+}
+
 fetch('/json/games.json')
 .then(response => response.json())
 .then(data => {
@@ -7,7 +11,7 @@ fetch('/json/games.json')
         const gameCard = document.createElement('div');
         gameCard.classList.add('game-card');
         gameCard.onclick = function() {
-            window.location.href = game.url;
+            load(game.url);
         };
 
         const imageContainer = document.createElement('div');

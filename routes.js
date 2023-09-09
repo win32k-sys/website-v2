@@ -1,28 +1,31 @@
-const express = require('express');
-const router = express.Router();
+import express from "express";
+import path from "path";
 
-router.get('/games', (req, res) => {
-    res.sendFile(__dirname + '/public/games.html');
+const router = express.Router();
+const __dirname = path.resolve();
+
+router.get("/search", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "uv.html"));
+});
+
+router.get("/games", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "games.html"));
+});
+
+router.get("/game", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "game.html"));
 });
 
 router.get('/', (req, res) => {
-    res.redirect('/home');
+  res.redirect('/home');
 });
 
-router.get('/home', (req, res) => {
-    res.sendFile(__dirname + '/public/home.html');
-});
-
-router.get('/load', (req, res) => {
-    res.sendFile(__dirname + '/public/loader.html');
-});
-
-router.get('/game', (req, res) => {
-    res.sendFile(__dirname + '/public/game.html');
+router.get("/home", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "home.html"));
 });
 
 router.use((req, res) => {
-    res.status(404).sendFile(__dirname + '/public/404.html');
+  res.status(404).sendFile(__dirname + '/public/404.html');
 });
 
-module.exports = router;
+export default router;
