@@ -1,20 +1,24 @@
 {
-  "name": "nate-games",
-  "version": "1.0.0",
-  "description": "Your Ultimate Hub for Unblocked HTML5, Flash, WebGL, and More! Immerse yourself in a world of gaming experiences - perfect for students & dedicated gamers!",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "nate-games",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "@titaniumnetwork-dev/ultraviolet": "^1.0.10",
-    "@tomphttp/bare-server-node": "^1.2.6",
-    "dependencies": "^0.0.1"
-  }
+    "name": "educational-site",
+    "version": "4.5.0",
+    "description": "",
+    "type": "module",
+    "engines": {
+        "npm": ">=7.0.0",
+        "node": ">=16.0.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        ""
+    ],
+    "author": "",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "@titaniumnetwork-dev/ultraviolet": "^1.0.10",
+        "@tomphttp/bare-server-node": "^1.2.6",
+        "dependencies": "^0.0.1",
+        "express": "^4.18.2"
+    }
 }
