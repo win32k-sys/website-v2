@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: nate-games | v2
+    runtime: Node
