@@ -25,7 +25,7 @@
   <script>
     window.onload = function () {
       let encodedUrl = sessionStorage.getItem("encodedUrl");
-      encodedUrl = "/search/" + encodedUrl;
+      encodedUrl = "/service/" + encodedUrl;
       document.querySelector("#iframeId").src = encodedUrl;
     };
   </script>
