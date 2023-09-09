@@ -1,14 +1,17 @@
 import express from "express";
-import http from "node:http";
+import http from "http";
 import createBareServer from "@tomphttp/bare-server-node";
-import path from "node:path";
-import * as dotenv from "dotenv";
+import path from "path";
+import dotenv from "dotenv";
+import routes from "./routes.js";
+
 dotenv.config();
 
-const __dirname = process.cwd();
+const __dirname = path.resolve();
 const server = http.createServer();
-const app = express(server);
+const app = express();
 const bareServer = createBareServer("/bare/");
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(
@@ -19,11 +22,8 @@ app.use(
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "uv.html"));
-});
+app.use("/", routes);
 
-// Bare Server
 server.on("request", (req, res) => {
   if (bareServer.shouldRoute(req)) {
     bareServer.routeRequest(req, res);
@@ -41,9 +41,7 @@ server.on("upgrade", (req, socket, head) => {
 });
 
 server.on("listening", () => {
-  console.log(`Server running, http://localhost:${process.env.PORT}`);
+  console.log(`Server is running on port ${port} http://localhost:${port}`);
 });
 
-server.listen({
-  port: process.env.PORT,
-});
+server.listen(port);
