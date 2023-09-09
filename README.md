@@ -22,8 +22,15 @@ npm start
 Open [127.0.0.1:3000](http://127.0.0.1:3000) or [localhost:3000](http://localhost:3000)
 
 ## Contributors
-Thanks to pr0x1es & 3kh0 who helped me work on v2!
+Thanks to pr0x1es who helped me work on v2!
 
 <a href="https://github.com/nate-games/nate-games.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=nate-games/website-v2" />
+</a>
+
+v1 contributors | Thanks 3kh0!
+
+
+<a href="https://github.com/nate-games/nate-games.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nate-games/nate-games.github.io" />
 </a>
