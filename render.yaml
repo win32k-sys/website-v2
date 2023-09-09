@@ -4,3 +4,4 @@ services:
     runtime: Node
     start: node index.js
     repo: https://github.com/nate-games/nate-games.github.io.git
+    branch: main
