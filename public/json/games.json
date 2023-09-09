@@ -42,13 +42,9 @@
     {
       "name": "Slither.io",
       "imageSrc": "/img/slitherio.png",
-      "url": "http://slither.io"
-    }
-  ]
-},
+      "url": "http://slither.io"  },
     {
-      "name": "Wings.io",
-      "imageSrc": "/img/wings-io.png",
+      "name": "Slither.io",
+      "imageSrc": "/img/slitherio.png",
       "url": "https://pr0x1es.github.io/"
-    },
-    {
+    }
