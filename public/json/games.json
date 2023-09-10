@@ -195,6 +195,31 @@
     "url": "https://nate-games.github.io/0/g/ovo3/game/"
   },
   {
+    "name": "Vex 3",
+    "imageSrc": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/87/06/4e/87064e7a-c9fd-7135-6ba3-f321f013e01e/mzl.kqcjsyop.png/512x512bb.jpg",
+    "url": "https://nate-games.github.io/0/g/vex-3/game/"
+  },
+  {
+    "name": "Vex 4",
+    "imageSrc": "/img/vex4.jpg",
+    "url": "https://nate-games.github.io/0/g/vex-4/game/"
+  },
+  {
+    "name": "Vex 5",
+    "imageSrc": "/img/vex5.jpeg",
+    "url": "https://nate-games.github.io/0/g/vex-5/game/"
+  },
+  {
+    "name": "Vex 6",
+    "imageSrc": "/img/vex6.jpeg",
+    "url": "https://nate-games.github.io/0/g/vex-6/game/"
+  },
+  {
+    "name": "Vex 7",
+    "imageSrc": "/img/vex7.jpeg",
+    "url": "https://nate-games.github.io/0/g/vex-7/game/"
+  },
+  {
     "name": "Drive Mad",
     "imageSrc": "/img/drivemad.avif",
     "url": "https://nate-games.github.io/0/g/drive-mad/game/"
@@ -228,6 +253,11 @@
     "name": "Paper.io 3D",
     "imageSrc": "/img/paperio3.jpg",
     "url": "https://nate-games.github.io/0/g/paperio3d/game/"
+  },
+  {
+    "name": "Tiny Fishing",
+    "imageSrc": "/img/tinyfishing.png",
+    "url": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://361820596-851580422716946014.preview.editmysite.com/uploads/b/139890129-473108247243760926/files/tf.xml"
   },
   {
     "name": "World's Hardest Game",
