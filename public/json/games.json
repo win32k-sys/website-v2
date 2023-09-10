@@ -5,6 +5,21 @@
     "url": "https://shellshock.io"
   },
   {
+    "name": "1v1.lol",
+    "imageSrc": "/img/1v1lol.jpg",
+    "url": "https://1v1.lol"
+  },
+  {
+  "name": "UZG by nex",
+  "imageSrc": "/img/uzg.png",
+  "url": "https://v6p9d9t4.ssl.hwcdn.net/html/5713982/UZG_webgl/index.html"
+},
+{
+  "name": "UZG 2",
+  "imageSrc": "/img/uzg2.png",
+  "url": "https://v6p9d9t4.ssl.hwcdn.net/html/7549101/index.html"
+},
+  {
     "name": "Doodle Jump",
     "imageSrc": "/img/doodlejump.png",
     "url": "https://nate-games.github.io/0/g/doodle-jump/game/"
@@ -13,6 +28,16 @@
     "name": "Geometry Dash",
     "imageSrc": "/img/geometrydash.svg",
     "url": "http://cdn.nate-games.workers.dev/?url:https://nate-games.github.io/0/g/geodash"
+  },
+  {
+    "name": "Slope",
+    "imageSrc": "/img/slope.jpg",
+    "url": "https://nate-games.github.io/0/g/slope/game/"
+  },
+  {
+    "name": "Cluster Rush",
+    "imageSrc": "https://raw.githubusercontent.com/OutRed/outred-assets-cdn.outred.org/main/cluster-rush/splash.png",
+    "url": "https://nate-games.github.io/0/g/cluster-rush/"
   },
   {
     "name": "Hole.io",
