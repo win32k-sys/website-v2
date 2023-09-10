@@ -233,5 +233,10 @@
     "name": "Pokemon Emerald",
     "imageSrc": "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
     "url": "https://superteamxx.github.io/GBA-Emulator-Unblocked/launcher.html#pokemonemerald"
+  },
+  {
+    "name": "Pokemon Leaf Green",
+    "imageSrc": "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
+    "url": "https://superteamxx.github.io/GBA-Emulator-Unblocked/launcher.html#pokemongreen"
   }
 ]
