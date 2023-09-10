@@ -20,6 +20,11 @@
     "url": "https://v6p9d9t4.ssl.hwcdn.net/html/7549101/index.html"
   },
   {
+    "name": "Superhot",
+    "imageSrc": "/img/superhot.jpg",
+    "url": "https://gamesite.cdnpog.com/e866d339-b924-44db-97d7-f3e25286b1ff/index.html"
+  },
+  {
     "name": "Doodle Jump",
     "imageSrc": "/img/doodlejump.png",
     "url": "https://nate-games.github.io/0/g/doodle-jump/game/"
@@ -33,6 +38,11 @@
     "name": "Slope",
     "imageSrc": "/img/slope.jpg",
     "url": "https://nate-games.github.io/0/g/slope/game/"
+  },
+  {
+    "name": "Tunnel Rush",
+    "imageSrc": "/img/tunnelrush.jpg",
+    "url": "https://nate-games.github.io/0/g/tunnel-rush/game/"
   },
   {
     "name": "Cluster Rush",
@@ -195,6 +205,11 @@
     "url": "https://nate-games.github.io/0/g/pooreddie/game/"
   },
   {
+    "name": "Lazy Jump 3D",
+    "imageSrc": "/img/lazyjump3d.bmp",
+    "url": "https://nate-games.github.io/0/g/lazyjump3d/game/"
+  },
+  {
     "name": "Big Flappy Tower",
     "imageSrc": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/a1/31/91/a1319179-81e4-4fc5-9c23-5e9f64199966/source/512x512bb.jpg",
     "url": "https://nate-games.github.io/0/g/big-flappy-tower/game/"
@@ -243,5 +258,10 @@
     "name": "Pokemon Fire Red",
     "imageSrc": "https://archives.bulbagarden.net/media/upload/4/43/FireRed_EN_boxart.png",
     "url": "https://superteamxx.github.io/GBA-Emulator-Unblocked/launcher.html#pokemonred"
+  },
+  {
+    "name": "Pokemon Ruby",
+    "imageSrc": "https://drive.google.com/file/d/1utXLuG9-zhUcQ_4MyOfCKFGXBVOruzcf/view",
+    "url": "https://superteamxx.github.io/GBA-Emulator-Unblocked/launcher.html#pokemonruby"
   }
 ]
