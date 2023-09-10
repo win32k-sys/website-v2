@@ -238,5 +238,10 @@
     "name": "Pokemon Leaf Green",
     "imageSrc": "https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg",
     "url": "https://superteamxx.github.io/GBA-Emulator-Unblocked/launcher.html#pokemongreen"
+  },
+  {
+    "name": "Pokemon Fire Red",
+    "imageSrc": "https://archives.bulbagarden.net/media/upload/4/43/FireRed_EN_boxart.png",
+    "url": "https://superteamxx.github.io/GBA-Emulator-Unblocked/launcher.html#pokemonred"
   }
 ]
