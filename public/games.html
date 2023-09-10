@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="/css/@main.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <title>Games</title>
+    <style>
+        .search-input {
+            border-radius: 2rem;
+            border: none;
+            width: 13%;
+            height: 34px;
+            background-color: #111;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            outline: none;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .search-input::placeholder {
+            opacity: 1;
+        }
+    </style>
 </head>
+
 <body>
     <script src="./uv/uv.bundle.js"></script>
     <script src="./uv/uv.config.js"></script>
@@ -13,13 +34,32 @@
             <a href="/" class="nav-home">Home</a>
             <a href="/games" style="opacity: calc(1); background-color: #000;">Games</a>
             <a href="/search">Proxy</a>
+            <input type="text" id="search-bar" placeholder="Search.." oninput="search()" class="search-input">
         </div>
     </div>
-
     <div class="game-container" id="game-container">
     </div>
 
-<script src="/js/games-json.js"></script>
-<script src="/js/game.js"></script>
+    <script src="/js/games-json.js"></script>
+    <script src="/js/game.js"></script>
+    <script>
+        function search() {
+            var input = document.getElementById("search-bar").value.toLowerCase();
+            var cards = document.getElementsByClassName("game-card");
+
+            for (var i = 0; i < cards.length; i++) {
+                var title = cards[i].querySelector("p").textContent.toLowerCase();
+                if (title.includes(input)) {
+                    cards[i].style.display = "block";
+                } else {
+                    cards[i].style.display = "none";
+                }
+            }
+        }
+
+        document.getElementById("search-bar").addEventListener("input", search);
+
+    </script>
 </body>
+
 </html>

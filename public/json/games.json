@@ -35,6 +35,21 @@
     "url": "http://nate-games.github.io/0/g/helixjump/game/"
   },
   {
+    "name": "Cookie Clicker",
+    "imageSrc": "https://play-lh.googleusercontent.com/OssE3ON9WsLZedOF39UCgtIHcRYfV0OqQS9O78LfmRdxSyKdHX52G2OFa0LkG6D-k9w",
+    "url": "https://nate-games.github.io/0/g/cookieclicker/game/"
+  },
+  {
+    "name": "2048",
+    "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/1/18/2048_logo.svg",
+    "url": "https://nate-games.github.io/0/g/2048/"
+  },
+  {
+    "name": "Fruit Ninja",
+    "imageSrc": "https://yt3.googleusercontent.com/ytc/AGIKgqMRFpsditeb0jRlTO0fOflkCfh4q0e2_SHGDLae6Q=s900-c-k-c0x00ffffff-no-rj",
+    "url": "https://nate-games.github.io/0/g/fruitninja/game/"
+  },
+  {
     "name": "Wings.io",
     "imageSrc": "/img/wings-io.png",
     "url": "http://wings.io/"
@@ -60,6 +75,11 @@
     "url": "https://raw.githack.com/nate-games/website-v2/6fa542a2355f004be3a7b84554979c8bd5cae2bf/public/projects/among-us/"
   },
   {
+  "name": "AdVenture Capitalist",
+  "imageSrc": "/img/adcap.jpg",
+  "url": "https://2851fd36-5096-49a9-b9c7-64c837446e86.id.repl.co/"
+},
+  {
     "name": "Doge Miner",
     "imageSrc": "/img/dogeminer.bmp",
     "url": "https://nate-games.github.io/0/g/doge-miner/"
@@ -69,20 +89,30 @@
     "imageSrc": "/img/dogeminer2.jpg",
     "url": "https://dogeminer2-1.diegojose6.repl.co/play/index.html"
    },
+  {
+    "name": "Tetris",
+    "imageSrc": "https://play-lh.googleusercontent.com/za2Nu_qjMw5GzWfbzet4zeiZT1xvJlTRi4NJzGpJWX9grxFAAko5dGBwe7qeqK01THw",
+    "url": "https://nate-games.github.io/0/g/tetris/game/"
+  },
    {
     "name": "Riddle School",
     "imageSrc": "/img/riddleschool.png",
     "url": "https://lbannana.github.io/lbannana-assets/flash/index.html?swf=riddleschool.swf"
   },
   {
-    "name": "Angry Birds",
-    "imageSrc": "/img/angrybirds.png",
-    "url": "https://nate-games.github.io/0/g/AngryBirds/game/"
-  },
-  {
     "name": "Riddle School 2",
     "imageSrc": "/img/riddleschool2.png",
     "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-school-2.xml"
+  },
+  {
+    "name": "Crossy Road",
+    "imageSrc": "https://play-lh.googleusercontent.com/2yH_JCxn7D9FttXZViPhmvIEDfRhio5qdLdWJLxcIfh8PjIkVeBgt_Gj7q21dIRp97g",
+    "url": "https://nate-games.github.io/0/g/CrossyRoad/game/"
+  },
+  {
+    "name": "Angry Birds",
+    "imageSrc": "/img/angrybirds.png",
+    "url": "https://nate-games.github.io/0/g/AngryBirds/game/"
   },
   {
     "name": "Flappy Bird",
@@ -103,5 +133,10 @@
     "name": "OvO 3",
     "imageSrc": "/img/ovo3.avif",
     "url": "https://nate-games.github.io/0/g/ovo3/game/"
+  },
+  {
+    "name": "Paper.io 2",
+    "imageSrc": "/img/paperio2.avif",
+    "url": "https://nate-games.github.io/0/g/paperio2/game/"
   }
 ]
