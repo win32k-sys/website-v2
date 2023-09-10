@@ -2,6 +2,7 @@ services:
   - type: web
     name: nate-games | v2
     runtime: Node
-    start: node index.js
+    buildCommand: npm install
+    startCommand: npm start
     repo: https://github.com/nate-games/nate-games.github.io.git
     branch: main

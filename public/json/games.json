@@ -85,6 +85,11 @@
     "url": "https://nate-games.github.io/0/g/fruitninja/game/"
   },
   {
+    "name": "Repuls.io",
+    "imageSrc": "/img/repuls-io.jpg",
+    "url": "https://repuls.io/"
+  },
+  {
     "name": "Wings.io",
     "imageSrc": "/img/wings-io.png",
     "url": "http://wings.io/"
@@ -225,6 +230,16 @@
     "url": "https://nate-games.github.io/0/g/drive-mad/game/"
   },
   {
+    "name": "Stickman Hook",
+    "imageSrc": "https://play-lh.googleusercontent.com/yXqBI1Vb1b-xjwmXLE2T7FQbgHIxfvjze1b6jO2aLHfy8Y8ta7NFSEVqZoPHtM2Ajyrl",
+    "url": "https://nate-games.github.io/0/g/stickmanhook/game/"
+  },
+  {
+    "name": "Neon Swing",
+    "imageSrc": "https://play-lh.googleusercontent.com/aUUqrS7i6UFtiG7oQdrfRdyCWN2XXV13DVeJTHmYub7Qdz7lQ6XyGJpB7RaeNlyXPw",
+    "url": "https://games.cdn.famobi.com/html5games/n/neon-swing/v020/?fg_domain=play.famobi.com&fg_aid=A-FAMOBI-COM&fg_uid=da8c245f-863b-475a-91ac-112588aa6296&fg_pid=96ab9c2f-6013-4b31-96dc-ccb5c7a89329&fg_beat=551&original_ref="
+  },
+  {
     "name": "Poor Eddie",
     "imageSrc": "/img/pooreddie.bmp",
     "url": "https://nate-games.github.io/0/g/pooreddie/game/"
@@ -248,6 +263,11 @@
     "name": "Ultimate Flash Sonic",
     "imageSrc": "https://e.snmc.io/lk/lv/x/1c866fe5a411e74065b43c3cec795696/10319151",
     "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fultimate-flash-sonic.xml"
+  },
+  {
+    "name": "Five Night at Freddy's",
+    "imageSrc": "https://assets1.ignimgs.com/2020/02/04/five-nights-at-freddys-1---button-2020-1580781479002.jpg",
+    "url": "https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/"
   },
   {
     "name": "Paper.io 2",
