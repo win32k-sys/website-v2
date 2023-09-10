@@ -1,3 +1,2 @@
-[context.production]
-  publish = "/"
-  command = "npm start"
+[build]
+command = "npm install"
