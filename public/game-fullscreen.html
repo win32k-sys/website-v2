@@ -2,158 +2,159 @@
 <html lang="en">
 
 <head>
-  <title>Classes</title>
-  <link rel="shortcut icon" href="/class.png" type="image/x-icon">
-  <link rel="stylesheet" href="/css/@main.css">
-  <script src="/uv/uv.bundle.js"></script>
-  <script src="/uv/uv.config.js"></script>
-  <style>
-    body {
-      margin: 0;
-    }
+    <title>Classes</title>
+    <link rel="shortcut icon" href="/class.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/@main.css">
+    <script src="/uv/uv.bundle.js"></script>
+    <script src="/uv/uv.config.js"></script>
+    <style>
+        body {
+            margin: 0;
+        }
 
-    iframe {
-      display: block;
-      background: #000;
-      border: none;
-      height: 100vh;
-      width: 100vw;
-    }
-  </style>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        iframe {
+            display: block;
+            background: #000;
+            border: none;
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-html,
-body {
-    padding: 0;
-    margin: 0;
-}
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+        }
 
-.center-container {
-    margin-top: 7em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+        .center-container {
+            margin-top: 7em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 
-#embed-container {
-    position: relative;
-    width: 1200px;
-    height: calc(675px - 50px);
-}
+        #embed-container {
+            position: relative;
+            width: 1200px;
+            height: calc(675px - 50px);
+        }
 
-#embed-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-}
+        #embed-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
 
-#fullscreen-button {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    z-index: 9999;
-    border: none;
-    background-color: #111;
-    padding: 15px;
-    cursor: pointer;
-    transition: .2s;
-    border-radius: 0;
-    margin-bottom: -50px;
-}
+        #fullscreen-button {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            z-index: 9999;
+            border: none;
+            background-color: #111;
+            padding: 15px;
+            cursor: pointer;
+            transition: .2s;
+            border-radius: 0;
+            margin-bottom: -50px;
+        }
 
-#fullscreen-button:hover {
-    background-color: #222;
-}
+        #fullscreen-button:hover {
+            background-color: #222;
+        }
 
-#fullscreen-button:hover path{
-    fill: #4287f5;
-}
+        #fullscreen-button:hover path {
+            fill: #4287f5;
+        }
 
-#fullscreen-icon {
-    fill: #fff;
-    stroke: none;
-    width: 18px;
-    height: 18px;
-}
+        #fullscreen-icon {
+            fill: #fff;
+            stroke: none;
+            width: 18px;
+            height: 18px;
+        }
 
-.fullscreen-text {
-    text-align: center;
-    margin-top: 10px;
-}
+        .fullscreen-text {
+            text-align: center;
+            margin-top: 10px;
+        }
 
-.bar {
-    padding: 15px;
-    position: absolute;
-    padding-left: calc(100% - 15px);
-    bottom: 0px;
-    left: 0px;
-    height: 20px;
-    background-color: #111;
-    z-index: 9998;
-    user-select: none;
-    overflow: hidden;
-    bottom: 0px;
-    margin-bottom: -50px;
-}
+        .bar {
+            padding: 15px;
+            position: absolute;
+            padding-left: calc(100% - 15px);
+            bottom: 0px;
+            left: 0px;
+            height: 20px;
+            background-color: #111;
+            z-index: 9998;
+            user-select: none;
+            overflow: hidden;
+            bottom: 0px;
+            margin-bottom: -50px;
+        }
 
-.game-title {
-    bottom: 0;
-    left: 0;
-    z-index: 9999;
-    color: white;
-    position: absolute;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    font-size: 15px;
-    text-decoration: transparent;
-    transition: .3s;
-    cursor: pointer;
-    font-weight: bolder;
-}
+        .game-title {
+            bottom: 0;
+            left: 0;
+            z-index: 9999;
+            color: white;
+            position: absolute;
+            margin-left: 15px;
+            margin-bottom: 15px;
+            font-size: 15px;
+            text-decoration: transparent;
+            transition: .3s;
+            cursor: pointer;
+            font-weight: bolder;
+        }
 
-.game-title:hover {
-    color: #4287f5;
-    text-decoration: dashed;
-    transform: scale(1.1);
-}
+        .game-title:hover {
+            color: #4287f5;
+            text-decoration: dashed;
+            transform: scale(1.1);
+        }
 
-.game-title img {
-    height: 20px;
-    vertical-align: middle;
-    margin-left: 7px;
-    position: absolute;
-}
-#game-title {
-    bottom: 0;
-    left: 0;
-    z-index: 9999;
-    color: white;
-    position: absolute;
-    margin-left: 180px;
-    margin-bottom: 15px;
-    font-size: 14px;
-    font-weight: normal;
-    font-family: 'Lato', sans-serif;
-}
+        .game-title img {
+            height: 20px;
+            vertical-align: middle;
+            margin-left: 7px;
+            position: absolute;
+        }
 
-.games-title {
-    bottom: 0;
-    left: 0;
-    z-index: 9999;
-    color: white;
-    position: absolute;
-    margin-left: 170px;
-    margin-bottom: 15px;
-    font-size: 14px;
-    font-weight: normal;
-    font-family: 'Lato', sans-serif;
-}
-  </style>
+        #game-title {
+            bottom: 0;
+            left: 0;
+            z-index: 9999;
+            color: white;
+            position: absolute;
+            margin-left: 180px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            font-weight: normal;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .games-title {
+            bottom: 0;
+            left: 0;
+            z-index: 9999;
+            color: white;
+            position: absolute;
+            margin-left: 170px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            font-weight: normal;
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
 
 <body style="margin: 0">
@@ -164,33 +165,34 @@ body {
             <a href="/search">Proxy</a>
         </div>
     </div>
-  <script>
-    window.onload = function () {
-      let encodedUrl = sessionStorage.getItem("encodedUrl");
-      encodedUrl = "/service/" + encodedUrl;
-      document.querySelector("#iframeId").src = encodedUrl;
-    };
-  </script>
+    <script>
+        window.onload = function () {
+            let encodedUrl = sessionStorage.getItem("encodedUrl");
+            encodedUrl = "/service/" + encodedUrl;
+            document.querySelector("#iframeId").src = encodedUrl;
+        };
+    </script>
     <div class="center-container">
         <div id="embed-container">
-            <iframe src="" id="iframeId" style="bottom: 0; border: 0" name="Iframe" scrolling="yes" allowfullscreen></iframe>
-            <a href="javascript:enterFullscreen();" title="Enter Fullscreen (F12), Exit Fullscreen (ESC)"><button
-                    id="fullscreen-button"><?xml version="1.0" ?><svg height="18px" version="1.1" viewBox="0 0 14 14" width="14px"
-                    xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <title />
-                    <desc />
-                    <defs />
-                    <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
-                        <g fill="#fff" id="Core" transform="translate(-215.000000, -257.000000)">
-                            <g id="fullscreen" transform="translate(215.000000, 257.000000)">
-                                <path
-                                    d="M2,9 L0,9 L0,14 L5,14 L5,12 L2,12 L2,9 L2,9 Z M0,5 L2,5 L2,2 L5,2 L5,0 L0,0 L0,5 L0,5 Z M12,12 L9,12 L9,14 L14,14 L14,9 L12,9 L12,12 L12,12 Z M9,0 L9,2 L12,2 L12,5 L14,5 L14,0 L9,0 L9,0 Z"
-                                    id="Shape" />
+            <iframe src="" id="iframeId" style="bottom: 0; border: 0" name="Iframe" scrolling="yes"
+                allowfullscreen></iframe>
+            <a href="javascript:enterFullscreen();" title="Enter Fullscreen (F)"><button id="fullscreen-button">
+                    <?xml version="1.0" ?><svg height="18px" version="1.1" viewBox="0 0 14 14" width="14px"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title />
+                        <desc />
+                        <defs />
+                        <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+                            <g fill="#fff" id="Core" transform="translate(-215.000000, -257.000000)">
+                                <g id="fullscreen" transform="translate(215.000000, 257.000000)">
+                                    <path
+                                        d="M2,9 L0,9 L0,14 L5,14 L5,12 L2,12 L2,9 L2,9 Z M0,5 L2,5 L2,2 L5,2 L5,0 L0,0 L0,5 L0,5 Z M12,12 L9,12 L9,14 L14,14 L14,9 L12,9 L12,12 L12,12 Z M9,0 L9,2 L12,2 L12,5 L14,5 L14,0 L9,0 L9,0 Z"
+                                        id="Shape" />
+                                </g>
                             </g>
                         </g>
-                    </g>
-                </svg>
+                    </svg>
                 </button></a>
             <span class="bar"><a href="http://nate-games.com" target="_blank">
                     <p class="game-title">nate-games.com<img src="/favicon.ico" draggable="false"></p>
@@ -211,5 +213,13 @@ body {
             }
         }
     </script>
+    <script>
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'F' || event.key === 'f') {
+                enterFullscreen();
+            }
+        });
+    </script>
 </body>
+
 </html>

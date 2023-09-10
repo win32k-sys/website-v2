@@ -70,6 +70,11 @@
     "url": "http://nate-games.github.io/0/g/helixjump/game/"
   },
   {
+    "name": "Narrow One",
+    "imageSrc": "/img/narrow-one.png",
+    "url": "http://narrow.one"
+  },
+  {
     "name": "Cookie Clicker",
     "imageSrc": "https://play-lh.googleusercontent.com/OssE3ON9WsLZedOF39UCgtIHcRYfV0OqQS9O78LfmRdxSyKdHX52G2OFa0LkG6D-k9w",
     "url": "https://nate-games.github.io/0/g/cookieclicker/game/"
@@ -135,6 +140,16 @@
     "url": "https://2851fd36-5096-49a9-b9c7-64c837446e86.id.repl.co/"
   },
   {
+    "name": "Burger & Frights",
+    "imageSrc": "/img/burger-frights.png",
+    "url": "http://nate-games.github.io/0/g/burger-frights/game/"
+  },
+  {
+    "name": "Make sure it's closed",
+    "imageSrc": "/img/make-sure-its-closed.png",
+    "url": "http://nate-games.github.io/0/g/msic/game/"
+  },
+  {
     "name": "Doge Miner",
     "imageSrc": "/img/dogeminer.bmp",
     "url": "https://nate-games.github.io/0/g/doge-miner/"
@@ -148,6 +163,11 @@
     "name": "Tetris",
     "imageSrc": "https://play-lh.googleusercontent.com/za2Nu_qjMw5GzWfbzet4zeiZT1xvJlTRi4NJzGpJWX9grxFAAko5dGBwe7qeqK01THw",
     "url": "https://nate-games.github.io/0/g/tetris/game/"
+  },
+  {
+    "name": "Circle",
+    "imageSrc": "/img/circle.png",
+    "url": "https://nate-games.github.io/0/g/circle/game/"
   },
   {
     "name": "Riddle School",
@@ -228,6 +248,11 @@
     "name": "Drive Mad",
     "imageSrc": "/img/drivemad.avif",
     "url": "https://nate-games.github.io/0/g/drive-mad/game/"
+  },
+  {
+    "name": "Drift Boss",
+    "imageSrc": "/img/driftboss.bmp",
+    "url": "https://watchdocumentaries.com/wp-content/uploads/games/drift-boss/"
   },
   {
     "name": "Stickman Hook",
