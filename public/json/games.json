@@ -25,6 +25,11 @@
     "url": "http://play.geforcenow.com"
   },
   {
+    "name": "Roblox",
+    "imageSrc": "https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht",
+    "url": "https://now.gg/play/roblox-corporation/5349/roblox"
+  },
+  {
     "name": "Helix Jump",
     "imageSrc": "/img/helixjump.png",
     "url": "http://nate-games.github.io/0/g/helixjump/game/"
@@ -45,6 +50,16 @@
     "url": "http://slither.io"
   },
   {
+    "name": "Friday Night Funkin'",
+    "imageSrc": "/img/fnf.avif",
+    "url": "https://cdn-ngs.pages.dev/fnf/game/"
+  },
+  {
+    "name": "Among Us",
+    "imageSrc": "/img/amongus.webp",
+    "url": "https://raw.githack.com/nate-games/website-v2/6fa542a2355f004be3a7b84554979c8bd5cae2bf/public/projects/among-us/"
+  },
+  {
     "name": "Doge Miner",
     "imageSrc": "/img/dogeminer.bmp",
     "url": "https://nate-games.github.io/0/g/doge-miner/"
@@ -58,6 +73,11 @@
     "name": "Riddle School",
     "imageSrc": "/img/riddleschool.png",
     "url": "https://lbannana.github.io/lbannana-assets/flash/index.html?swf=riddleschool.swf"
+  },
+  {
+    "name": "Angry Birds",
+    "imageSrc": "/img/angrybirds.png",
+    "url": "https://nate-games.github.io/0/g/AngryBirds/game/"
   },
   {
     "name": "Riddle School 2",
@@ -83,11 +103,5 @@
     "name": "OvO 3",
     "imageSrc": "/img/ovo3.avif",
     "url": "https://nate-games.github.io/0/g/ovo3/game/"
-  },
-  {
-    "name": "Roblox",
-    "imageSrc": "https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht",
-    "url": "https://now.gg/play/roblox-corporation/5349/roblox"
   }
 ]
-

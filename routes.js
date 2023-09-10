@@ -13,7 +13,7 @@ router.get("/games", (req, res) => {
 });
 
 router.get("/game", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "game.html"));
+  res.sendFile(path.join(__dirname, "public", "game-fullscreen.html"));
 });
 
 router.get('/', (req, res) => {

@@ -159,15 +159,15 @@ body {
 <body style="margin: 0">
     <div class="nav">
         <div class="nav-content">
-            <a href="/" class="nav-home" style="opacity: calc(1); background-color: #000;">Home</a>
-            <a href="/games">Games</a>
+            <a href="/" class="nav-home">Home</a>
+            <a href="/games" style="opacity: calc(1); background-color: #000;">Games</a>
             <a href="/search">Proxy</a>
         </div>
     </div>
   <script>
     window.onload = function () {
       let encodedUrl = sessionStorage.getItem("encodedUrl");
-      encodedUrl = "/search/" + encodedUrl;
+      encodedUrl = "/service/" + encodedUrl;
       document.querySelector("#iframeId").src = encodedUrl;
     };
   </script>
