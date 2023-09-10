@@ -90,9 +90,19 @@
     "url": "https://justfall.lol/"
   },
   {
+    "name": "Smash Karts",
+    "imageSrc": "https://play-lh.googleusercontent.com/-0rSllZ8as88Jcs3iZ7-JCFyTb3YLB-HjR7bY7P6q_2MAswmDH4h1qNPfFiaZqzkkg",
+    "url": "https://nate-games.github.io/0/g/smashkarts/game/"
+  },
+  {
     "name": "Slither.io",
     "imageSrc": "/img/slitherio.png",
     "url": "http://slither.io"
+  },
+  {
+    "name": "Snowball.io",
+    "imageSrc": "https://play-lh.googleusercontent.com/X8FEOENa_t5mlRllBh2RRLc6sMnPIq56Wxa2ndValDOmwzIRhAv7MG6fT97TLQ2DK48",
+    "url": "https://nate-games.github.io/0/g/snowball.io/game/"
   },
   {
     "name": "Friday Night Funkin'",
@@ -138,6 +148,11 @@
     "name": "Crossy Road",
     "imageSrc": "https://play-lh.googleusercontent.com/2yH_JCxn7D9FttXZViPhmvIEDfRhio5qdLdWJLxcIfh8PjIkVeBgt_Gj7q21dIRp97g",
     "url": "https://nate-games.github.io/0/g/CrossyRoad/game/"
+  },
+  {
+    "name": "Tanuki Sunset",
+    "imageSrc": "/img/tanuki-sunset.png",
+    "url": "https://nate-games.github.io/0/g/tanuki-sunset/game/"
   },
   {
     "name": "Angry Birds",
@@ -198,5 +213,20 @@
     "name": "Paper.io 3D",
     "imageSrc": "/img/paperio3.jpg",
     "url": "https://nate-games.github.io/0/g/paperio3d/game/"
+  },
+  {
+    "name": "World's Hardest Game",
+    "imageSrc": "https://play-lh.googleusercontent.com/df-trpQwYqy_ZuFLkdmIJLW7ikLQoyHbW1tfZHMWG0XapjYjTJiUbJCe9y4GKmMAuFg",
+    "url": "https://nate-games.github.io/0/g/whg/game/"
+  },
+  {
+    "name": "World's Hardest Game 2",
+    "imageSrc": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/f8/f2/85/f8f28569-048b-c989-b3bc-1df6ea96ae5a/AppIcon-1x_U007emarketing-85-220-6.png/512x512bb.jpg",
+    "url": "https://nate-games.github.io/0/g/whg2/game/"
+  },
+  {
+    "name": "World's Hardest Game 3",
+    "imageSrc": "https://play-lh.googleusercontent.com/VJyKOCBuE9r08Cscw91kvcBpZHBduido-HW1kisyR50yrldHtWRgyXVudiITnnGxoDE",
+    "url": "https://nate-games.github.io/0/g/whg3/game/"
   }
 ]
