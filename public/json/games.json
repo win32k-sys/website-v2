@@ -50,9 +50,14 @@
     "url": "https://dogeminer2-1.diegojose6.repl.co/play/index.html"
    },
    {
-    "name": "Riddle School 1",
-    "imageSrc": "/img/dogeminer2.jpg",
+    "name": "Riddle School",
+    "imageSrc": "/img/riddleschool.png",
     "url": "https://lbannana.github.io/lbannana-assets/flash/index.html?swf=riddleschool.swf"
+  },
+  {
+    "name": "Riddle School 2",
+    "imageSrc": "/img/riddleschool2.png",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-school-2.xml"
   }
 ]
 
