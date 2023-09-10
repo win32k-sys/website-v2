@@ -1,37 +1,38 @@
-function load(url) {
-    window.location.href = url;
-}
-
 fetch('/json/games.json')
-.then(response => response.json())
-.then(data => {
-    const gameContainer = document.getElementById('game-container');
+    .then(response => response.json())
+    .then(data => {
+        const gameContainer = document.getElementById('game-container');
 
-    data.forEach(game => {
-        const gameCard = document.createElement('div');
-        gameCard.classList.add('game-card');
-        gameCard.onclick = function() {
-            load(game.url);
-        };
+        data.forEach(game => {
+            const gameCard = document.createElement('div');
+            gameCard.classList.add('game-card');
+            gameCard.onclick = function() {
+                load(game.url);
+            };
 
-        const imageContainer = document.createElement('div');
-        imageContainer.classList.add('image-container');
+            const imageContainer = document.createElement('div');
+            imageContainer.classList.add('image-container');
 
-        const img = document.createElement('img');
-        img.src = game.imageSrc;
-        img.onerror = function() {
-            this.src = '/image-placeholder.svg';
-        };
+            const img = document.createElement('img');
+            img.src = game.imageSrc;
+            img.onerror = function() {
+                this.src = '/image-placeholder.svg';
+            };
 
-        const p = document.createElement('p');
-        p.textContent = game.name;
+            const p = document.createElement('p');
+            p.textContent = game.name;
 
-        imageContainer.appendChild(img);
-        gameCard.appendChild(imageContainer);
-        gameCard.appendChild(p);
-        gameContainer.appendChild(gameCard);
+            imageContainer.appendChild(img);
+            gameCard.appendChild(imageContainer);
+            gameCard.appendChild(p);
+            gameContainer.appendChild(gameCard);
+        });
+
+        // Game Counter
+        const gameCards = document.querySelectorAll('.game-card');
+        const countElement = document.getElementById('count');
+        countElement.textContent = gameCards.length;
+    })
+    .catch(error => {
+        console.error('Error loading JSON data:', error);
     });
-})
-.catch(error => {
-    console.error('Error loading JSON data:', error);
-});

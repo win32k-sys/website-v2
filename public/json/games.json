@@ -10,6 +10,11 @@
     "url": "https://1v1.lol"
   },
   {
+    "name": "BuildNow.GG",
+    "imageSrc": "/img/build-now.png",
+    "url": "https://games.crazygames.com/en_US/buildnow-gg/index.html"
+  },
+  {
     "name": "UZG by nex",
     "imageSrc": "/img/uzg.png",
     "url": "https://v6p9d9t4.ssl.hwcdn.net/html/5713982/UZG_webgl/index.html"
@@ -23,6 +28,11 @@
     "name": "Superhot",
     "imageSrc": "/img/superhot.jpg",
     "url": "https://gamesite.cdnpog.com/e866d339-b924-44db-97d7-f3e25286b1ff/index.html"
+  },
+  {
+    "name": "Krunker.io",
+    "imageSrc": "https://play-lh.googleusercontent.com/YiIdFPGRikQVMAcT8Bg5MiYRgi9YHwsFfP5RsfBcpwKqsl_y3AWqbJ8rhJ0TnLIsdg",
+    "url": "https://krunker.io"
   },
   {
     "name": "Doodle Jump",
@@ -43,6 +53,11 @@
     "name": "Tunnel Rush",
     "imageSrc": "/img/tunnelrush.jpg",
     "url": "https://nate-games.github.io/0/g/tunnel-rush/game/"
+  },
+  {
+    "name": "Tunnel Rush 2",
+    "imageSrc": "/img/tunnelrush2.webp",
+    "url": "https://nate-games.github.io/0/g/tunnel-rush2/game/"
   },
   {
     "name": "Cluster Rush",
@@ -100,6 +115,11 @@
     "url": "http://wings.io/"
   },
   {
+    "name": "Ducklings.io",
+    "imageSrc": "https://play-lh.googleusercontent.com/bAPhkkHwbkODYsZ1sn9BZybFL6uNWWFOskvXCdK86HiLsqBHWyO8Nt0NephFBY1lQkV9",
+    "url": "http://ducklings.io"
+  },
+  {
     "name": "Stumble Guys",
     "imageSrc": "/img/stumbleguys.png",
     "url": "http://www.stumbleguys.com/"
@@ -150,6 +170,11 @@
     "url": "http://nate-games.github.io/0/g/msic/game/"
   },
   {
+    "name": "911 Prey",
+    "imageSrc": "/img/911-prey.avif",
+    "url": "http://games.crazygames.com/en_US/911-prey/index.html"
+  },
+  {
     "name": "Doge Miner",
     "imageSrc": "/img/dogeminer.bmp",
     "url": "https://nate-games.github.io/0/g/doge-miner/"
@@ -160,6 +185,11 @@
     "url": "https://dogeminer2-1.diegojose6.repl.co/play/index.html"
   },
   {
+    "name": "Bloxd.io",
+    "imageSrc": "/img/bloxd-io.avif",
+    "url": "http://bloxd.io"
+  },
+  {
     "name": "Tetris",
     "imageSrc": "https://play-lh.googleusercontent.com/za2Nu_qjMw5GzWfbzet4zeiZT1xvJlTRi4NJzGpJWX9grxFAAko5dGBwe7qeqK01THw",
     "url": "https://nate-games.github.io/0/g/tetris/game/"
@@ -168,6 +198,11 @@
     "name": "Circle",
     "imageSrc": "/img/circle.png",
     "url": "https://nate-games.github.io/0/g/circle/game/"
+  },
+  {
+    "name": "Bottle Flip 3D",
+    "imageSrc": "https://play-lh.googleusercontent.com/sMpJpTPMtTMr9tfusBtbWIz_h2UdX3iwx8Ea4w6vJ-0vyFILvpIMj_JvwVSeS6Xq0bg",
+    "url": "https://nate-games.github.io/0/g/bf3d/game/"
   },
   {
     "name": "Riddle School",
@@ -250,6 +285,11 @@
     "url": "https://nate-games.github.io/0/g/drive-mad/game/"
   },
   {
+    "name": "Monster Tracks",
+    "imageSrc": "/img/monster-tracks.avif",
+    "url": "http://play.fancade.com/60851784770864E1"
+  },
+  {
     "name": "Drift Boss",
     "imageSrc": "/img/driftboss.bmp",
     "url": "https://watchdocumentaries.com/wp-content/uploads/games/drift-boss/"
@@ -308,6 +348,31 @@
     "name": "Tiny Fishing",
     "imageSrc": "/img/tinyfishing.png",
     "url": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://361820596-851580422716946014.preview.editmysite.com/uploads/b/139890129-473108247243760926/files/tf.xml"
+  },
+  {
+    "name": "Bloons Tower Defense",
+    "imageSrc": "/img/btd.webp",
+    "url": "https://nate-games.github.io/0/g/BloonsTD/game/"
+  },
+  {
+    "name": "Bloons Tower Defense 2",
+    "imageSrc": "/img/btd2.webp",
+    "url": "https://nate-games.github.io/0/g/BloonsTD2/game/"
+  },
+  {
+    "name": "Bloons Tower Defense 3",
+    "imageSrc": "/img/btd3.webp",
+    "url": "https://nate-games.github.io/0/g/BloonsTD3/game/"
+  },
+  {
+    "name": "Bloons Tower Defense 4",
+    "imageSrc": "/img/btd4.jpg",
+    "url": "https://nate-games.github.io/0/g/BloonsTD4/game/"
+  },
+  {
+    "name": "Bloons Tower Defense 5",
+    "imageSrc": "/img/btd5.webp",
+    "url": "https://nate-games.github.io/0/g/BloonsTD5/game/"
   },
   {
     "name": "World's Hardest Game",
