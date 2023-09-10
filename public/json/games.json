@@ -45,6 +45,11 @@
     "url": "http://slither.io"
   },
   {
+    "name": "Doge Miner",
+    "imageSrc": "/img/dogeminer.bmp",
+    "url": "https://nate-games.github.io/0/g/doge-miner/"
+   },
+  {
     "name": "Doge Miner 2",
     "imageSrc": "/img/dogeminer2.jpg",
     "url": "https://dogeminer2-1.diegojose6.repl.co/play/index.html"
@@ -58,6 +63,31 @@
     "name": "Riddle School 2",
     "imageSrc": "/img/riddleschool2.png",
     "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Friddle-school-2.xml"
+  },
+  {
+    "name": "Flappy Bird",
+    "imageSrc": "/img/flappybird.png",
+    "url": "https://nate-games.github.io/0/g/flappybird/game/"
+  },
+  {
+    "name": "OvO",
+    "imageSrc": "/img/ovo.png",
+    "url": "https://nate-games.github.io/0/g/ovo/game/"
+  },
+  {
+    "name": "OvO 2",
+    "imageSrc": "/img/ovo2.png",
+    "url": "https://nate-games.github.io/0/g/ovo2/game/"
+  },
+  {
+    "name": "OvO 3",
+    "imageSrc": "/img/ovo3.avif",
+    "url": "https://nate-games.github.io/0/g/ovo3/game/"
+  },
+  {
+    "name": "Roblox",
+    "imageSrc": "https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht",
+    "url": "https://now.gg/play/roblox-corporation/5349/roblox"
   }
 ]
 
