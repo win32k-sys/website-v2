@@ -85,6 +85,11 @@
     "url": "http://www.stumbleguys.com/"
   },
   {
+    "name": "JustFall.LOL",
+    "imageSrc": "https://play-lh.googleusercontent.com/-0rSllZ8as88Jcs3iZ7-JCFyTb3YLB-HjR7bY7P6q_2MAswmDH4h1qNPfFiaZqzkkg",
+    "url": "https://justfall.lol/"
+  },
+  {
     "name": "Slither.io",
     "imageSrc": "/img/slitherio.png",
     "url": "http://slither.io"
@@ -145,6 +150,11 @@
     "url": "https://nate-games.github.io/0/g/flappybird/game/"
   },
   {
+  "name": "Stack",
+  "imageSrc": "https://play-lh.googleusercontent.com/WRlGQXa9Pav7YZPW-P5X8PAga0lF2T1BAzmasxB9qV_1_om5DgmMbxOFo2SK8ZN5K5k",
+  "url": "https://nate-games.github.io/0/g/stack/game/"
+},
+  {
     "name": "OvO",
     "imageSrc": "/img/ovo.png",
     "url": "https://nate-games.github.io/0/g/ovo/game/"
@@ -160,8 +170,33 @@
     "url": "https://nate-games.github.io/0/g/ovo3/game/"
   },
   {
+    "name": "Drive Mad",
+    "imageSrc": "/img/drivemad.avif",
+    "url": "https://nate-games.github.io/0/g/drive-mad/game/"
+  },
+  {
+    "name": "Poor Eddie",
+    "imageSrc": "/img/pooreddie.bmp",
+    "url": "https://nate-games.github.io/0/g/pooreddie/game/"
+  },
+  {
+    "name": "Big Flappy Tower",
+    "imageSrc": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/a1/31/91/a1319179-81e4-4fc5-9c23-5e9f64199966/source/512x512bb.jpg",
+    "url": "https://nate-games.github.io/0/g/big-flappy-tower/game/"
+  },
+  {
+    "name": "Retro Bowl",
+    "imageSrc": "https://play-lh.googleusercontent.com/WRM5Y1xZmzcCP1YtO5zl6G2g7CU5c5ZfjX4UVrgi1bpNgkfy-wuB-bQx3kkeRfaGYQ",
+    "url": "https://nate-games.github.io/0/g/retrobowl/game/"
+  },
+  {
     "name": "Paper.io 2",
     "imageSrc": "/img/paperio2.avif",
     "url": "https://nate-games.github.io/0/g/paperio2/game/"
+  },
+  {
+    "name": "Paper.io 3D",
+    "imageSrc": "/img/paperio3.jpg",
+    "url": "https://nate-games.github.io/0/g/paperio3d/game/"
   }
 ]

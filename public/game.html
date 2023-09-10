@@ -6,6 +6,7 @@
   <link rel="shortcut icon" href="/class.png" type="image/x-icon">
   <script src="/uv/uv.bundle.js"></script>
   <script src="/uv/uv.config.js"></script>
+  <link rel="stylesheet" href="css/@main.css">
   <style>
     body {
       margin: 0;
@@ -18,15 +19,45 @@
       height: 100vh;
       width: 100vw;
     }
+
+    #loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    #loading-image {
+      width: 60px;
+      height: 60px;
+    }
+
+    #loading-text {
+      color: white;
+      font-family: 'Lato', Arial, Helvetica, sans-serif;
+    }
   </style>
 </head>
 
 <body style="margin: 0">
+  <div id="loading-screen">
+    <img id="loading-image" src="/img/search.svg"><h4 id="loading-text">Loading...</h4>
+  </div>
   <script>
     window.onload = function () {
       let encodedUrl = sessionStorage.getItem("encodedUrl");
       encodedUrl = "/service/" + encodedUrl;
       document.querySelector("#iframeId").src = encodedUrl;
+
+      document.querySelector("#iframeId").onload = function () {
+        document.querySelector("#loading-screen").style.display = "none";
+        document.querySelector("#loading-text").style.display = "none";
+      };
     };
   </script>
   <iframe src="" id="iframeId" style="bottom: 0; border: 0" name="Iframe" scrolling="yes" allowfullscreen></iframe>
