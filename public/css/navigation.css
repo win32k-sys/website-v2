@@ -28,6 +28,16 @@
     opacity: calc(0.7);
   }
 
+  .login {
+    color:white;
+    position: absolute;
+    right: 2em;
+  }
+
+  .login a:hover {
+    opacity: calc(0.7);
+  }
+
   /* .nav-home {
     left: 15px; position: absolute;
   }

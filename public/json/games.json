@@ -120,6 +120,11 @@
     "url": "http://ducklings.io"
   },
   {
+  "name": "Thumb fighter",
+  "imageSrc": "/img/thumbfighter.jpg",
+  "url": "http://nate-games.com/0/g/thumb-fighter/game/"
+},
+  {
     "name": "Stumble Guys",
     "imageSrc": "/img/stumbleguys.png",
     "url": "http://www.stumbleguys.com/"
@@ -150,6 +155,16 @@
     "url": "https://cdn-ngs.pages.dev/fnf/game/"
   },
   {
+    "name": "Friday Night Funkin' Neo",
+    "imageSrc": "/img/fnfneo.png",
+    "url": "http://nate-games.com/0/g/fnfneo/game/"
+  },
+  {
+    "name": "FNF vs. Imposter",
+    "imageSrc": "/img/fnfsus.jpg",
+    "url": "https://nate-games.com/0/g/fnfvsimposter/game/"
+  },
+  {
     "name": "Among Us",
     "imageSrc": "/img/amongus.webp",
     "url": "https://raw.githack.com/nate-games/website-v2/6fa542a2355f004be3a7b84554979c8bd5cae2bf/public/projects/among-us/"
@@ -158,6 +173,21 @@
     "name": "AdVenture Capitalist",
     "imageSrc": "/img/adcap.jpg",
     "url": "https://2851fd36-5096-49a9-b9c7-64c837446e86.id.repl.co/"
+  },
+  {
+    "name": "Cut the Rope",
+    "imageSrc": "/img/cut-the-rope.jpg",
+    "url": "http://nate-games.com/0/g/cut-the-rope/game/"
+  },
+  {
+    "name": "Cut the Rope | Time Travel",
+    "imageSrc": "https://play-lh.googleusercontent.com/cOeXa7SPn_mFnsUwlxrgNGTvEbO2-vfk4QCRgtjq9DX8VbYG9mnELwsAo5ACOd7ywpIi",
+    "url": "http://nate-games.com/0/g/ctr-time/game/"
+  },
+  {
+    "name": "Cut the Rope | Holiday Gift",
+    "imageSrc": "/img/cut-the-rope-holiday.bmp",
+    "url": "http://nate-games.com/0/g/ctr-hg/game/"
   },
   {
     "name": "Burger & Frights",

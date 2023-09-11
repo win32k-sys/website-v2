@@ -36,9 +36,10 @@
             <a href="/games" style="opacity: calc(1); background-color: #000;">Games</a>
             <a href="/search">Proxy</a>
             <input type="text" id="search-bar" placeholder="Search.." oninput="search()" class="search-input">
+            <a href="/login" class="login">Login</a>
         </div>
     </div>
-    <p style="border-radius: 20px; padding: 15px; background-color: #4287f5; margin: 3em 3em 0; display: inline-block;">Games: <span id="count">0</span></p>
+    <p class="game-count" onclick="alert('This is the total game count!')"><span id="count">0.0</span> Games</p>
     <div class="game-container" id="game-container">
     </div>
 
