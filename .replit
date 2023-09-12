@@ -1,11 +1,2 @@
-language = "nix"
-run = ["npm", "start"]
-
-[packager]
-language = "nodejs-npm"
-
-[nix]
-channel = "stable-22_05"
-
-[unitTest]
 language = "nodejs"
+run = ["npm", "start"]
