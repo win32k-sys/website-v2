@@ -8,6 +8,7 @@ import routes from "./routes.js";
 dotenv.config();
 
 const __dirname = path.resolve();
+const express = require('express'); 
 const server = http.createServer();
 const app = express();
 const bareServer = createBareServer("/bare/");
